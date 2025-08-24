@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# VSCode
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Logs
+*.log
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Data caches
+*.sqlite3
+*.db
+
+# Pytest / coverage
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local app data (do not commit)
+openai_api_key.txt
+tradepulse-ai/data/openai_api_key.txt
+tradepulse-ai/data/last_run.json
+tradepulse-ai/data/openai_output.json
+tradepulse-ai/data/*.json
+tradepulse-ai/data/*.md
+tradepulse-ai/data/*.txt

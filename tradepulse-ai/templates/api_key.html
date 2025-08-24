@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-8 col-lg-6">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h1 class="h4 mb-3">OpenAI API Key Required</h1>
+        <p class="text-muted">To generate the daily report, we need a valid OpenAI API key. You can create one here: <a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener">OpenAI API Keys</a>.</p>
+        <form method="post">
+          <div class="mb-3">
+            <label class="form-label">API Key</label>
+            <input type="text" class="form-control" name="api_key" placeholder="sk-..." required>
+          </div>
+          <button class="btn btn-primary" type="submit">Save key</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

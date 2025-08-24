@@ -1,0 +1,35 @@
+:root{
+	--glass-bg: rgba(18, 24, 35, 0.68);
+	--glass-border: rgba(255,255,255,0.12);
+	--text: #f2f6fb;
+	--muted: #c1cfde;
+	--accent: #4fd1ff;
+}
+
+body { background: radial-gradient(1200px 800px at 20% 10%, #0b1020, #070a12) fixed; color: var(--text); }
+.navbar { background: linear-gradient(180deg, rgba(8,12,20,.8), rgba(8,12,20,.4)) !important; backdrop-filter: blur(12px); border-bottom: 1px solid var(--glass-border); }
+.card {
+	background: var(--glass-bg);
+	border: 1px solid var(--glass-border);
+	border-radius: 16px;
+	backdrop-filter: blur(14px);
+	box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+.btn { border-radius: 12px; }
+.btn-success { background: linear-gradient(135deg, #15b88a, #0aa06f); border: 0; }
+.btn-danger { background: linear-gradient(135deg, #ff3b3b, #d92a2a); border: 0; }
+.btn-primary { background: linear-gradient(135deg, #3b82f6, #1f58cc); border: 0; }
+.signal-card .btn { min-width: 140px; }
+.signal-card h5 { color: var(--text); }
+.markdown-body { color: var(--text); }
+.markdown-body a { text-decoration: underline; color: var(--accent); }
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4 { color: #ffffff; }
+.markdown-body p, .markdown-body li { color: #e9f1fb; }
+
+.news-list .list-group-item {
+	background: rgba(255,255,255,.02); color: var(--text); border: 1px solid var(--glass-border); margin-bottom: 10px; border-radius: 12px;
+}
+.news-list .ticker-badge {
+	display: inline-block; padding: 4px 10px; border-radius: 999px; background: rgba(0,212,255,.1); border: 1px solid rgba(0,212,255,.25); color: var(--accent); font-weight: 600; margin-right: 8px;
+}
+.news-list a:hover { background: rgba(255,255,255,.06); }
